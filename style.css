@@ -518,7 +518,73 @@ text-align: left;
     text-decoration-thickness: 1px;
 }
 
+/* Dentistry_section */
 
+
+.Dentistry_clinic_section{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+
+}
+.Dentistry_AllContent_container{
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    /* gap: 10px; */
+    /* margin-left: 8/0px; */
+    /* align-items: center; */
+
+}
+
+.Dentistry_info{
+    width: 28%;
+    height: auto;
+    margin-left: 14rem;
+    padding-top: 7%;
+    /* border: 2px solid black; */
+}
+.Dentistry_info h3{
+    padding-bottom: 25px;
+    font-weight: 100;
+    letter-spacing:2.5px;
+}
+.Dentistry_info h2{
+    padding-bottom:25px;
+    font-size: 48px;
+}
+.Dentistry_info p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    letter-spacing: .5px;
+}
+.Dentistry_info .link-line{
+    display: block;
+    padding: 20px 0px 15px;
+}
+.Dentistry_info .link-line a{
+    text-decoration: underline;
+    color: black;
+    text-underline-offset: 4.5px;
+    text-decoration-thickness:1px ;
+}
+.Dentistry_img-container{
+    height: auto;
+    /* margin-top: 55px; */
+    max-width: 55%;
+    /* border: 2px solid red; */
+}
+
+.Dentistry_img-container img {
+    height: 100%;
+    /* padding-top: 170px 0px 0px 70px; */
+    width: 100%;
+    /* margin-left: 10%; */
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
 
 
 
